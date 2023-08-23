@@ -14,5 +14,5 @@ const planets = [
   'neptune',
 ];
 planets.forEach(planet =>{
-  planetsList.innerHTML += `<li>${planet |> sentenceCase |> planetIcon  }</li>`
+  planetsList.innerHTML += `<li>${planet}</li>`
 })
